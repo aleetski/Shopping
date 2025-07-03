@@ -1,0 +1,122 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+
+
+
+
+
+
+</head>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+
+
+
+<body>
+    <section class="header">
+
+
+        <nav>
+
+        
+	    <a href="index.html"><img src="rrr.jpg"></a>
+            <div class="div1">
+                <div class="nav-links">
+                
+                            <ul>
+                                <li><a href="Home" class="hero-btn2">Home </a></li>
+                                <li><a href="About" class="hero-btn2">About </a></li>
+                                <li><a href="Store"class="hero-btn2">Store </a></li>
+                                <li><a href="Contact Us" class="hero-btn2">Contact</a></li>
+                            </ul>
+            
+                </div>
+
+            </div>
+	
+        </nav>
+
+        
+
+        
+        <div class="text-box">
+        <h1> - company Name -</h1>
+
+        </div>
+
+
+
+        <div class="text-box">
+        <h1> WWWWWWW WWWWW WWWW WWWWWWWW</h1>
+        <p> wwwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwwwwww<br>
+        wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br>
+        wwwwwwwwwwwwwwwwwwwwwwww<br>
+        <a href="index.html"><img src="shipping1.jpg"></a>
+
+
+        <img class="mySlides w3-animate-fading" src="shipping1.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="banner1.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="banner3.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="shipping1.jpg style="width:100%">
+
+
+
+
+
+
+         wwwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwwwwww<br>
+        wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br>
+        wwwwwwwwwwwwwwwwwwwwwwww<br>
+    
+    
+    
+    
+        </p>
+        <a href="" class="hero-btn"> Visit </a>
+        </div>
+
+
+
+                <div class="text-box">
+        <h1> - company Name -</h1>
+        <p> WWWWWWW w  The motow w w w wW W  W w w w w w<br>
+        wwwwwww  w w w w w w w  w ww w wwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwww </p>
+        <a href="" class="hero-btn"> Visit </a>
+        </div>
+
+
+
+
+
+    </section>
+    
+</body>
+</html>
